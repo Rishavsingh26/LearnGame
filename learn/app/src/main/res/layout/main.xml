@@ -1,0 +1,171 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:layout_margin="5dp"
+    android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/mainTextView3"
+        
+		android:textColor="#ff0000"
+		android:textSize="24sp"
+		android:gravity="center"
+		android:typeface="serif"
+		android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+	
+	<LinearLayout
+		android:layout_marginTop="10dp"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+	
+    <Button
+		android:id="@+id/mainButton1"
+        android:text="KING"
+		android:onClick="onClick"
+		android:background="#ff7500"
+		android:textColor="#ffffff"
+		android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+	
+	<Button
+		android:id="@+id/mainButton2"
+        android:text="QUEEN"
+		android:onClick="onClick"
+		android:background="#ff7500"
+		android:textColor="#ffffff"
+		android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+	
+	<Button
+		android:id="@+id/mainButton3"
+        android:text="NOVEL"
+		android:onClick="onClick"
+		android:background="#000088"
+		android:textColor="#ffffff"
+		android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+	
+	</LinearLayout>
+	
+	<LinearLayout
+		android:gravity="center_horizontal"
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		
+	<Button
+		android:id="@+id/mainButton4"
+        android:text="ARMY"
+		android:onClick="onClick"
+		android:background="#000088"
+		android:textColor="#ffffff"
+		android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+	
+	<Button
+		android:id="@+id/mainButton5"
+		android:text="ENEMY"
+		android:onClick="onClick"
+		android:background="#000000"
+		android:textColor="#ffffff"
+		android:layout_margin="5dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	
+	<Button
+		android:id="@+id/mainButton6"
+		android:text="PUBLIC"
+		android:onClick="onClick"
+		android:background="#ff0088"
+		android:textColor="#ffffff"
+		android:layout_margin="5dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+		
+		
+	</LinearLayout>
+	
+	<LinearLayout
+		android:gravity="center"
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<Button
+			android:id="@+id/mainButton7"
+			android:text="CHIEF"
+			android:onClick="onClick"
+			android:background="#000088"
+			android:textColor="#ffffff"
+			android:layout_margin="5dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<Button
+			android:id="@+id/mainButton8"
+			android:text="PRIEST"
+			android:onClick="onClick"
+			android:background="#ff0088"
+			android:textColor="#ffffff"
+			android:layout_margin="5dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<Button
+			android:id="@+id/mainButton9"
+			android:text="RIVAL"
+			android:onClick="onClick"
+			android:background="#000000"
+			android:textColor="#ffffff"
+			android:layout_margin="5dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+
+	</LinearLayout>
+	
+	<TextView
+		android:id="@+id/mainTextView1"
+        android:text="Devloped by Rishav Singh"
+		android:textSize="20sp"
+		android:gravity="center"
+		android:typeface="serif"
+		android:textColor="#ff7500"
+		android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+	
+	<TextView
+		android:id="@+id/mainTextView2"
+        android:textSize="17sp"
+		android:gravity="start"
+		android:typeface="serif"
+		
+		android:textColor="#ff0000"
+		android:layout_margin="20dp"
+		android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+	
+	<TextView
+		android:id="@+id/mainTextView4"
+		android:gravity="center"
+		android:typeface="serif"
+		android:textSize="22sp"
+		android:text=""
+		android:textColor="#980370"
+		android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+	
+	
+
+</LinearLayout>
